@@ -1,33 +1,35 @@
 # humanizer-ru
 
-Скилл для Claude, который убирает признаки ИИ-генерации из русского блог-контента.
+🇷🇺 [Русская версия](README.ru.md)
 
-## Что делает
+A Claude skill that removes signs of AI generation from Russian-language blog content.
 
-- Чистит лексические маркеры ИИ: менторский тон, эмоциональную инфляцию, канцеляризмы, пафосные вступления и финалы
-- Исправляет структурные паттерны: симметричные абзацы, списочный психоз, тройные перечисления
-- Защищает от обратной проблемы — не даёт уйти в TikTok-копию или LinkedIn-блогерство
+## What it does
 
-## Для каких жанров
+- Cleans lexical AI markers: mentor tone, emotional inflation, bureaucratic register, grandiose openers and endings
+- Fixes structural patterns: symmetrical paragraphs, list mania, lists of exactly three
+- Guards against the opposite problem — doesn't let the text drift into TikTok copy or LinkedIn-blogger style
 
-✅ Посты для Telegram-каналов  
-✅ Статьи на vc.ru, Хабре  
-✅ Аналитические разборы, эссе, туториалы  
+## Target genres
 
-## Установка
+✅ Telegram channel posts  
+✅ Articles on vc.ru, Habr  
+✅ Analytical breakdowns, essays, tutorials  
 
-Скачайте `humanizer-ru.skill` из [Releases](../../releases) и импортируйте в Claude.
+## Installation
 
-## Использование
+Download `humanizer-ru.skill` from [Releases](../../releases) and import it into Claude.
 
-Скилл срабатывает автоматически когда вы говорите:
-- «перепиши более живо»
-- «сделай менее ИИ-шно»
-- «звучит как ChatGPT»
-- «слишком сухо / шаблонно»
+## Usage
 
-Также применяется проактивно после генерации любого блог-текста объёмом больше абзаца.
+The skill triggers automatically when you say (in Russian):
+- «перепиши более живо» — rewrite it more lively
+- «сделай менее ИИ-шно» — make it less AI-ish
+- «звучит как ChatGPT» — sounds like ChatGPT
+- «слишком сухо / шаблонно» — too dry / formulaic
 
-## Версия
+It also applies proactively after any Russian blog text longer than a paragraph is generated.
+
+## Version
 
 v1.0.0
